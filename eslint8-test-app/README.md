@@ -1,10 +1,6 @@
 # eslint8-test-app
 
-Test app to debug ESLint error:
-
-```
-Parsing error: Cannot use keyword 'await' outside an async function
-```
+Test app showing that ESLint 8 can understand top-level 'await'.
 
 ## Setup commands
 

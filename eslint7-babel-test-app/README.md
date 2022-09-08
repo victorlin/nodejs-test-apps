@@ -1,10 +1,6 @@
 # eslint7-babel-test-app
 
-Test app to show ESLint error:
-
-```
-Parsing error: Cannot use keyword 'await' outside an async function
-```
+Test app showing that ESLint 7 with the Babel parser can understand top-level 'await'.
 
 ## Setup commands
 

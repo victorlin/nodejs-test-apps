@@ -4,7 +4,7 @@ jobs:
     runs-on: ubuntu-latest
     defaults:
       run:
-        working-directory: ./eslint7-test-app
+        working-directory: ./eslint8-test-app
     steps:
     - uses: actions/checkout@v3
     - uses: actions/setup-node@v3
