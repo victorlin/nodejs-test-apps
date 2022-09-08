@@ -1,0 +1,10 @@
+name: main CI
+on: push
+jobs:
+  lint:
+    runs-on: ubuntu-latest
+    steps:
+    - uses: actions/checkout@v3
+    - run: cd eslint7-test-app
+    - run: npm ci
+    - run: npm run lint

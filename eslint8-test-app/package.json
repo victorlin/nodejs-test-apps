@@ -1,0 +1,14 @@
+{
+  "name": "eslint8-test-app",
+  "type": "module",
+  "version": "1.0.0",
+  "description": "Test app to debug ESLint error",
+  "main": "app.js",
+  "scripts": {
+    "lint": "eslint ."
+  },
+  "license": "ISC",
+  "devDependencies": {
+    "eslint": "^8.23.0"
+  }
+}
