@@ -1,0 +1,17 @@
+{
+  "name": "eslint7-babel-test-app",
+  "version": "1.0.0",
+  "description": "Test app to show ESLint error:",
+  "main": "app.js",
+  "scripts": {
+    "lint": "eslint ."
+  },
+  "keywords": [],
+  "author": "",
+  "license": "ISC",
+  "devDependencies": {
+    "@babel/core": "^7.19.0",
+    "@babel/eslint-parser": "^7.18.9",
+    "eslint": "^7.32.0"
+  }
+}
