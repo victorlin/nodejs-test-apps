@@ -12,6 +12,8 @@ Parsing error: Cannot use keyword 'await' outside an async function
 # create app.js
 npm init --yes
 npm install --save-dev eslint@8
+npm install --save-dev @babel/eslint-parser
+npm install --save-dev @babel/core
 npx eslint --init
 # How would you like to use ESLint? · problems
 # What type of modules does your project use? · esm
